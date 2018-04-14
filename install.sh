@@ -10,3 +10,6 @@ git clone https://github.com/k-takata/minpac.git ~/.vim/pack/minpac/opt/minpac
 cp vimrc ~/.vimrc
 
 vim -E -c PackUpdate -c q
+
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
